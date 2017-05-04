@@ -1,0 +1,19 @@
+@mail.ru Xpath
+
+
+Логин = //*[@id="mailbox__login"]
+
+Пароль = //*[@id='mailbox__password']
+
+Войти = //*[@id='mailbox__auth__button']
+
+Написать письмо = //*[.="Написать письмо"]
+
+Кому = //textarea[@class="js-input compose__labels__input"]
+
+Тема = //input[@class="b-input"]
+
+Содержание = //div[@class="compose__editor"]/descendant::table[@class='w100'] 
+
+Отправить =//div[@data-name='send']
+
